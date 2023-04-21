@@ -17,12 +17,12 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header { 
     text-align: center;
   }
-  
+
 }
 .main-page {
   display: block;
@@ -32,7 +32,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
@@ -115,7 +115,7 @@ li > input[type="checkbox"] {
   width: 226px;
 }
 .li-style > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .img-delete {
   height: 2em;
@@ -134,12 +134,12 @@ li > input[type="checkbox"] {
 
 /* Edit Task */
 .input-text {
-  display: none
+  display: none;
 }
 
 .edit-mode input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .task {
