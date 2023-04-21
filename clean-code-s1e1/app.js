@@ -74,12 +74,14 @@ var editTask=function() {
   var editBtn=listItem.querySelector(".edit");
   var containsClass=listItem.classList.contains("edit-mode");
   //If class of the parent is .editmode
+
   if(containsClass) {
     //switch to .editmode
     //label becomes the inputs value.
     label.innerText=editInput.value;
     editBtn.innerText="Edit";
   } 
+  
   else {
     editInput.value=label.innerText;
     editBtn.innerText="Save";
